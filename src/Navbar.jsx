@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <header className="bg-white h-14">
-            <nav className="max-w-6xl mx-auto flex justify-between bg-yellow-50">
+            <nav className="max-w-7xl mx-auto flex justify-between bg-yellow-50 px-7">
                 <a href="http://">LOGO</a>
                 <ul className="hidden md:flex gap-x-6">
                     <li>Inicio</li>

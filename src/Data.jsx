@@ -13,7 +13,7 @@ export const target = [
         id: 2,
         title: "Niños",
         text: "Los niños y jóvenes enfrentan muchas dificultades tanto a nivel social, académico y familiar. En la niñez se dan los procesos de aprendizaje para regular emociones y varios factores influyen al respecto. Involucrar a los adultos cuidadores en el proceso terapéutico es esencial para lograr mejores resultados.",
-        problems: ["PROBLEMAS DE ATENCIÒN", "HIPERACTIVIDAD-IMPULSIVIDAD", "CONDUCTA O POSICIONAL", "DIFICULTAD PARA AJUSTARSE A LOS CAMBIOS", "MIEDOS PERSISTENTES", "INSEGURIDAD", "DIFICULTADES EN EL PROCESO DE APRENDIZAJE", ""]
+        problems: ["PROBLEMAS DE ATENCIÒN", "HIPERACTIVIDAD-IMPULSIVIDAD", "CONDUCTA O POSICIONAL", "DIFICULTAD PARA AJUSTARSE A LOS CAMBIOS", "MIEDOS PERSISTENTES", "INSEGURIDAD", "DIFICULTADES EN EL PROCESO DE APRENDIZAJE"]
     },
     {
         id: 3,

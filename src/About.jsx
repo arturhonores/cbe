@@ -2,7 +2,7 @@ import aboutUs from "./assets/images/about-us.jpg"
 
 const About = () => {
     return (
-        <section className="max-w-6xl mx-auto py-16">
+        <section className="section">
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div>
                     <img src={aboutUs} alt="imagen sobre nosotros" />

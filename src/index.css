@@ -9,3 +9,9 @@
         font-family: "Roboto";
     }
 }
+
+@layer components {
+    .section {
+        @apply max-w-7xl py-16 mx-auto px-7;
+    }
+}
