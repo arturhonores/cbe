@@ -1,3 +1,7 @@
+import individualTherapy from "./assets/images/therapy-individual.jpg"
+import coupleTherapy from "./assets/images/couple-therapy.jpg"
+import familyTherapy from "./assets/images/familiar-therapy.jpg"
+
 export const target = [
     {
         id: 1,
@@ -18,4 +22,22 @@ export const target = [
         problems: ["FAMILIAS RECONSTRUIDAS", "CONFLICTOS EN ROLES PARENTALES", "DIFICULTADES EN LA COMUNICACIÓN", "INFIDELIDAD", "SEXUALIDAD"]
     },
 
+]
+
+export const services = [
+    {
+        id: 1,
+        imageSrc: individualTherapy,
+        title: "Terapia Individual"
+    },
+    {
+        id: 2,
+        imageSrc: coupleTherapy,
+        title: "Terapia de Pareja"
+    },
+    {
+        id: 3,
+        imageSrc: familyTherapy,
+        title: "Terapia de Family"
+    }
 ]
