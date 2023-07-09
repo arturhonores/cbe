@@ -6,7 +6,7 @@ const About = () => {
         <section className="section">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 place-items-center">
                 <div>
-                    <img src={aboutUs} alt="imagen sobre nosotros" />
+                    <img src={aboutUs} alt="imagen sobre nosotros" className="w-11/12" />
                 </div>
                 <div className="">
                     <h6 className="uppercase text-slate-500 font-medium">¿Quiénes Somos? </h6>
