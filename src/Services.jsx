@@ -5,7 +5,7 @@ const Services = () => {
         <section className="bg-zinc-100">
             <div className="section">
                 <h3 className="text-slate-600 text-center text-4xl font-medium">Servicios Psicológicos</h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-x-7 gap-y-20 py-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-20 py-8">
                     {
                         services.map(service => (
                             <div key={service.id}>

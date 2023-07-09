@@ -38,6 +38,6 @@ export const services = [
     {
         id: 3,
         imageSrc: familyTherapy,
-        title: "Terapia de Family"
+        title: "Terapia de Familia"
     }
 ]
