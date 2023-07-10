@@ -5,6 +5,8 @@ import Target from './Target'
 import About from './About'
 import Services from './Services'
 import Online from './Online'
+import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
       <About />
       <Services />
       <Online />
+      <Contact />
+      <Footer />
     </>
   )
 }

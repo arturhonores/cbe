@@ -5,7 +5,7 @@ const Online = () => {
     return (
         <section className="section">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 place-items-center">
-                <div className="">
+                <div>
                     <h6 className="uppercase text-slate-500 font-medium">sesión en línea</h6>
                     <h3 className="text-4xl font-medium text-slate-600 py-3">Reserva <span className="font-bold">Hoy Mismo</span></h3>
                     <div className="py-5 space-y-4">
