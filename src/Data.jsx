@@ -2,6 +2,13 @@ import individualTherapy from "./assets/images/therapy-individual.jpg"
 import coupleTherapy from "./assets/images/couple-therapy.jpg"
 import familyTherapy from "./assets/images/familiar-therapy.jpg"
 
+import {
+    BsInstagram,
+    BsTwitter,
+    BsFacebook,
+    BsPinterest,
+} from "react-icons/bs";
+
 export const target = [
     {
         id: 1,
@@ -40,4 +47,28 @@ export const services = [
         imageSrc: familyTherapy,
         title: "Terapia de Familia"
     }
+]
+
+export const socialIcons = [
+    {
+        id: 1,
+        href: "#",
+        nameICon: <BsFacebook />
+    },
+    {
+        id: 2,
+        href: "#",
+        nameICon: <BsInstagram />
+    },
+    {
+        id: 3,
+        href: "#",
+        nameICon: <BsTwitter />
+    },
+    {
+        id: 4,
+        href: "#",
+        nameICon: <BsPinterest />
+    },
+
 ]

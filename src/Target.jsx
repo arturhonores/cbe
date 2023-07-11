@@ -23,7 +23,7 @@ const Target = () => {
                     }
                 </ul>
             </div>
-            <div className="bg-white text-slate-600 p-14">
+            <div className="bg-white text-slate-600 p-14 md:col-span-full lg:col-auto">
                 <h3 className="text-[42px] font-medium">{card3.title}</h3>
                 <p>{card3.text} </p>
                 <ul className="leading-7 pt-4">

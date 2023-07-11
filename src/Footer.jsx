@@ -1,11 +1,6 @@
 import logo from "./assets/images/logo-CBE.svg"
 import { motion } from "framer-motion"
-import {
-    BsInstagram,
-    BsTwitter,
-    BsFacebook,
-    BsPinterest,
-} from "react-icons/bs";
+import { socialIcons } from "./Data";
 
 const Footer = () => {
     return (
@@ -71,38 +66,16 @@ const Footer = () => {
                         <div className="flex flex-col items-center md:items-start">
                             <h5 className="font-bold">Síguenos</h5>
                             <div className="flex gap-4 mt-4">
-                                <motion.a
-                                    whileHover={{ translateY: -3 }}
-                                    whileTap={{ scale: 1.1 }}
-                                    href="#"
-                                    className="text-xl"
-                                >
-                                    <BsFacebook />
-                                </motion.a>
-                                <motion.a
-                                    whileHover={{ translateY: -3 }}
-                                    whileTap={{ scale: 1.1 }}
-                                    href="#"
-                                    className="text-xl"
-                                >
-                                    <BsInstagram />
-                                </motion.a>
-                                <motion.a
-                                    whileHover={{ translateY: -3 }}
-                                    whileTap={{ scale: 1.1 }}
-                                    href="#"
-                                    className="text-xl"
-                                >
-                                    <BsTwitter />
-                                </motion.a>
-                                <motion.a
-                                    whileHover={{ translateY: -3 }}
-                                    whileTap={{ scale: 1.1 }}
-                                    href="#"
-                                    className="text-xl"
-                                >
-                                    <BsPinterest />
-                                </motion.a>
+                                {
+                                    socialIcons.map((icon, id) => (
+                                        <motion.a key={id} whileHover={{ translateY: -3, color: "rgb(6,182,212)" }}
+                                            whileTap={{ scale: 1.1 }}
+                                            href={icon.href}
+                                            className="text-xl">
+                                            {icon.nameICon}
+                                        </motion.a>
+                                    ))
+                                }
                             </div>
                         </div>
                     </div>
