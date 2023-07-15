@@ -1,4 +1,4 @@
-import mockup from "./assets/images/mockup-cbe.svg"
+import mockup from "../assets/images/mockup-cbe.svg"
 import Btn from "./Btn"
 
 const Online = () => {

@@ -1,4 +1,4 @@
-import { target } from "./Data"
+import { target } from "../Data"
 
 const Target = () => {
 

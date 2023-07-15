@@ -1,5 +1,5 @@
 import Btn from "./Btn"
-import aboutUs from "./assets/images/about-us.jpg"
+import aboutUs from "../assets/images/about-us.jpg"
 
 const About = () => {
     return (

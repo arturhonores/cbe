@@ -1,6 +1,6 @@
-import logo from "./assets/images/logo-CBE.svg"
+import logo from "../assets/images/logo-CBE.svg"
 import { motion } from "framer-motion"
-import { socialIcons } from "./Data";
+import { socialIcons } from "../Data";
 
 const Footer = () => {
     return (

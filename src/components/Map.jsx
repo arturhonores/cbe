@@ -1,5 +1,5 @@
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
-import pin from "./assets/images/map-pin-cbe.svg"
+import pin from "../assets/images/map-pin-cbe.svg"
 
 const Map = () => {
     const { isLoaded } = useLoadScript({

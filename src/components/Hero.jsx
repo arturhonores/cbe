@@ -1,4 +1,4 @@
-import video from "./assets/video/video_HD.mp4"
+import video from "../assets/video/video_HD.mp4"
 
 const Hero = () => {
     return (
